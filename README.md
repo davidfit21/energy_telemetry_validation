@@ -8,8 +8,6 @@ The current release should be understood as:
 
 **Version 1 validated dataset + engineering validation methodology**
 
-It is not yet a final academic release. Links to a paper, DOI, Hugging Face dataset, OpenML benchmark, or technical articles should be added only after those outputs exist.
-
 ## Research Objective
 
 The objective is to evaluate whether multi-meter building energy telemetry can be transformed into a scientifically useful validated dataset by combining data-quality auditing with physics-grounded electrical validation.
@@ -54,19 +52,30 @@ If a formal public source or citation exists for the original dataset, it should
 
 ## Original Dataset
 
-This project is based on the original energy telemetry dataset published by the original data provider.
+This project is based on the energy telemetry dataset collected from a
+data centre at Kasetsart University and described by Chatlatanagulchai and
+Chantrapornchai (2024).
 
-The original raw telemetry data are not redistributed in this repository. Users should obtain the original dataset directly from the official source before running the processing and validation pipeline.
+The original raw telemetry data are not redistributed in this repository.
+Users should obtain the original dataset from the original source before
+running the processing and validation pipeline.
 
 **Original dataset repository:**  
-[LINK]
+https://github.com/cchantra/energydata
 
-**Original dataset / data source:**  
-[LINK]
+**Original publication:**  
+Chatlatanagulchai, W., & Chantrapornchai, C. (2024).
+*Energy consumption data collection: case study on data center in a Thai
+University*. Energy Informatics, 7, 26.
 
-The original dataset should be downloaded and placed in the `csv/` directory before running the processing pipeline.
+https://doi.org/10.1186/s42162-024-00327-1
 
-The original dataset's licensing and data-use conditions apply to the source data. Users should consult the original source for the applicable terms.
+The original dataset and publication should be cited when using the
+underlying data.
+
+The original dataset is governed by its own data-use and licensing
+conditions. Users should consult the original source before
+redistributing the underlying data.
 
 ## Processing Pipeline
 
@@ -452,6 +461,6 @@ For now, cite this repository as a Version 1 engineering-validation pipeline for
 
 ## Contact
 
-**Maintainer:** Your Name
+**Maintainer:** David Fit
 
-**GitHub:** `https://github.com/your-github-username`
+**GitHub:** `https://github.com/davidfit21`

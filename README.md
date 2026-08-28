@@ -1,5 +1,7 @@
 # Energy Telemetry Validation
 
+**Version 1 DOI:** https://doi.org/10.5281/zenodo.22143264
+
 ## Overview
 
 This repository contains a Version 1 engineering-validation pipeline for an energy telemetry dataset. The project converts raw meter telemetry into Parquet, audits sampling and data quality, applies documented cleaning rules, and validates the resulting dataset using electrical-engineering consistency checks.

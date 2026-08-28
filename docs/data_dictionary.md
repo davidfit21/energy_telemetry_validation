@@ -4,7 +4,7 @@
 
 This document describes the main telemetry columns used in the Version 1 processing and validation pipeline.
 
-Not every device contains every column. Use `scripts/2_schema_validation.py` to inspect actual column availability per device.
+For a more detailed schema check, use `scripts/2_schema_validation.py` to inspect actual column availability per device.
 
 ## Device Groups
 

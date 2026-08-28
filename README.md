@@ -414,7 +414,6 @@ This is a Version 1 validated dataset and methodology.
 Important limitations include:
 
 * The final academic paper has not yet been published.
-* No DOI has been assigned yet.
 * Some parent-child conservation residuals are caused by incomplete downstream metering coverage.
 * Original cumulative energy counters may contain frozen periods or resets.
 * Derived energy counters depend on instantaneous power integration and timestamp continuity.
@@ -429,9 +428,9 @@ The underlying raw telemetry dataset may be governed by separate terms from the 
 
 ## Citation
 
-A formal citation will be added once the research release or paper has been published.
+The Version 1 release is permanently archived on Zenodo:
 
-For now, cite this repository as a Version 1 engineering-validation pipeline for the energy telemetry dataset.
+**DOI:** https://doi.org/10.5281/zenodo.22143264
 
 ## Contact
 
